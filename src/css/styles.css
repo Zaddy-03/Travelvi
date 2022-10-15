@@ -1,0 +1,867 @@
+body{
+     background-color: #FFFFFF;
+}
+
+.VanillaContainer {
+    /* position: absolute; */
+    width: 1350px;
+    height: 862px;
+    left: 0px;
+    top: 80px;
+    overflow-y: scroll;
+    background: linear-gradient(to bottom white 5%);
+
+    /* brand colour 2 */
+    background-color: #8F5B33;
+    
+    /* background: linear-gradient(to bottom, , white 5%);   */
+}
+
+.image1{
+    position: absolute;
+    width: 240px;
+    height: 323px;
+    left: 516px;
+    top: 532px;    
+}
+
+.image2{
+    position: absolute;
+    width: 240px;
+    height: 532px;
+    left: 806px;
+    top: 323px;   
+}
+
+.image3{
+    position: absolute;
+    width: 240px;
+    height: 532px;
+    left: 1096px;
+    top: 162px;    
+}
+
+.gallery1{
+    /* position: absolute; */
+    width: 759px;
+    height: 424px;
+    left: 0px;
+    top: 0px;
+}
+
+.gallery2{
+    /* position: absolute; */
+    width: 381px;
+    height: 200px;
+    left: 787px;
+    top: 2px;
+}
+
+.gallery3{
+    width: 381px;
+    height: 200px;
+    left: 787px;
+    top: 226px;
+}
+
+.gallery4{
+    width: 381px;
+    height: 200px;
+    left: 381px;
+    top: 2px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.gallery5{
+    width: 381px;
+    height: 200px;
+    left: 381px;
+    top: 226px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.gallery6{
+    width: 759px;
+    height: 424px;
+    left: 1168px;
+    top: 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.image4{    
+    width: 240px;
+    height: 532px;
+    left: 1071px;
+    top: 2920px;
+    margin-left: 900px;
+    margin-top: -600px;
+}
+
+#first{
+    width: 74px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    
+    /* identical to box height */
+    color: #8F5B33;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 600px;
+    margin-bottom: 10px;
+}
+
+#second{
+    width: 72px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.67);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#third{
+    width: 100px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.67);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#forth{
+    width: 53px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.67);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#fift{
+    width: 132px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.67);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#travelvi{
+    color: #9D4C0E;
+    margin-left: 70px; 
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#Beauty{
+    position: absolute;
+    width: 321px;
+    height: 48px;
+    left: 171px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+#nature{
+    position: absolute;
+    width: 414px;
+    height: 76px;
+    left: 171px;
+    top: 240px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    color: rgba(217, 217, 217, 0.6);
+}
+
+#help{
+    position: absolute;
+    width: 549px;
+    height: 108px;
+    left: 171px;
+    top: 332px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+#Learnmore{
+    width: 135px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 64px;
+    gap: 10px;
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    left: 171px;
+    top: 480px;
+    
+    /* yes remi */
+    background: #4E290D;
+    border-radius: 80px;
+    
+}
+
+.VanillaContainer2{
+    /* position: absolute; */
+    width: 1350px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    overflow-y: scroll;
+    background-color: #8F5B33;
+}
+
+#guides{
+    /* position: absolute; */
+    width: 360px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: rgba(217, 217, 217, 0.93);
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#explore{
+    /* position: absolute; */
+    width: 347px;
+    height: 108px;
+    left: 0px;
+    top: 114px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #D9D9D9;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#gallery{
+    width: 327px;
+    height: 76px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 76px;
+    margin-left: 500px;
+
+    /* brand colour 2 */
+    color: #8F5B33;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Let{
+    width: 347px;
+    height: 72px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 500px;
+
+    /* botten Colour */
+    color: #633714;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+#tour1{
+    width: 193px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 525px;
+    margin-top: -255px;
+
+    /* identical to box height */
+    color: rgba(217, 217, 217, 0.93);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /*  */
+    /* position: absolute; */
+    /* width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px; */
+    /* yes remi */
+    /* background: #4E290D; */
+}
+
+#come1{
+    width: 301px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E5E5E5;
+    margin-left: 525px;
+    margin-bottom: -400px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#tour2{
+    width: 193px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    
+    /* identical to box height */
+    color: rgba(217, 217, 217, 0.93);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#come2{
+    width: 301px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D9D9D9;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#tour3{
+    width: 193px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    /* identical to box height */
+    color: rgba(217, 217, 217, 0.93);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#come3{
+    width: 301px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(217, 217, 217, 0.93);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#tour4{
+    width: 193px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    /* identical to box height */
+    color: rgba(217, 217, 217, 0.93);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#come4{
+    width: 301px;
+    height: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D9D9D9;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#VanillaContainer3{
+    position: absolute;
+    width: 968px;
+    height: 888px;
+    left: 173px;
+    top: 2840px;
+
+    /* brand colour 2 */
+    background: #8F5B33;
+}
+
+#drop{
+    /* position: absolute; */
+    width: 293px;
+    height: 44px;
+    left: 72px;
+    top: 1052px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 25px;
+    margin-top: 20px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+/* label */
+.label{
+    width: 93px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+    margin-left: 25px;
+    
+    /* identical to box height */
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* label end */
+
+/* form */
+#name{    
+    width: 530px;
+    height: 56px;
+    background: #FFFFFF;
+    margin-left: 25px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#cnumber{    
+    width: 530px;
+    height: 56px;
+    background: #FFFFFF;
+    margin-left: 25px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#message{    
+    width: 530px;
+    height: 179px;
+    background: #FFFFFF;
+    margin-left: 25px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* form end */
+
+/* send message botton */
+.sendbtn{
+    width: 187px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* yes remi */
+    background: #4E290D;
+    border-radius: 100px;
+}
+
+#VanillaContainer4{
+    position: absolute;
+    width: 1350px;
+    height: 574px;
+    left: 0px;
+    top: 3840px;
+
+    /* brand colour 1 */
+    background: #726962;
+}
+
+/*  */
+#trap1{
+    position: absolute;
+    width: 133px;
+    height: 44px;
+    left: 172px;
+    top: 165px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    /* identical to box height */
+    color: #D9D9D9;
+}
+
+#trap2{
+    position: absolute;
+    width: 298px;
+    height: 108px;
+    left: 172px;
+    top: 233px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#lasthome{
+    width: 94px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 500px;
+    margin-top: 165px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#aboutus{
+    width: 141px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 700px;
+    margin-top: -39px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#lastservice{
+    width: 132px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 900px;
+    margin-top: -45px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#facility{
+    width: 117px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 1050px;
+    margin-top: -45px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#privacy{
+    width: 120px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 500px;
+    margin-top: 67px;
+    
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#Terms{
+    width: 189px;
+    height: 88px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-left: 700px;
+    margin-top: -67px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#Privacypolicy{
+    width: 224px;
+    height: 44px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 950px;
+    margin-top: -45px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+#copyright{
+    position: absolute;
+    width: 414px;
+    height: 44px;
+    left: 549px;
+    top: 487px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+#Learnmore2{
+    width: 135px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;   
+
+    /* identical to box height */
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 64px;
+    gap: 10px;
+    position: absolute;
+    width: 263px;
+    height: 68px;
+    left: 171px;
+    top: 480px;
+    margin-top: 850px;
+    margin-left: -75px;
+
+    /* yes remi */
+    background-color: #4E290D;
+    border-radius: 100px;        
+}
